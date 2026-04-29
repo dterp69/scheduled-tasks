@@ -13,10 +13,12 @@ import smtplib
 import os
 import pandas
 
+MY_EMAIL = "j92791856@gmail.com"
+MY_PASSWORD = "npqv aneb ggvp oier"
 
 
-MY_EMAIL = os.environ.get("j92791856@gmail.com")
-MY_PASSWORD = os.environ.get("npqv aneb ggvp oier")
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 today = dt.datetime.now()
 today = (today.month, today.day)
